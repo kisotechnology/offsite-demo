@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "braintrustdev.baml",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+    ]
+}
