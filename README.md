@@ -25,6 +25,7 @@ A demo project showcasing how to use evals to build AI products for the Kiso off
    uv sync
    ```
 
+
 ## Project Structure
 
 - `app_store_reviews/`: Contains the main application code
@@ -43,6 +44,9 @@ The project includes an evaluation system for analyzing app store reviews using 
    Then edit `app_store_reviews/.env` with your actual API keys:
    - `BRAINTRUST_API_KEY`: Your Braintrust API key
    - `OPENAI_API_KEY`: Your OpenAI API key
+   
+   To use the BAML VS Code extension properly (highly recommended), you'll also follow instructions [here](https://docs.boundaryml.com/guide/installation-editors/vs-code-extension#setting-env-variables).
+
 
 2. Run the evaluation script:
    ```bash
