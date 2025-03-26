@@ -1,0 +1,9 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    // Ignore baml_client because it's generated (and has type errors as of 2025-03-04)"
+    "python.analysis.ignore": [
+        "**/baml_client/**",
+        "**/*.csv"
+    ],
+}

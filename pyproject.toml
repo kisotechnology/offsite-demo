@@ -5,6 +5,8 @@ description = "A demo showing how to use evals to build AI products for the Kiso
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "autoevals>=0.0.126",
     "baml-py>=0.81.1",
     "braintrust>=0.0.194",
+    "pydantic>=2.10.6",
 ]
